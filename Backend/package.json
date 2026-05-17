@@ -1,0 +1,27 @@
+{
+  "name": "webbackend",
+  "version": "1.0.0",
+  "description": "This going to be the basic project for backend",
+  "homepage": "https://github.com/mateoTech2025/WebBackEnd#readme",
+  "bugs": {
+    "url": "https://github.com/mateoTech2025/WebBackEnd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateoTech2025/WebBackEnd.git"
+  },
+  "license": "ISC",
+  "author": "Reygian",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
